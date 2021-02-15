@@ -60,6 +60,9 @@ header {
 
 .contenido-header .textos-header {
   width: 50%;
+  transform: translateY(0);
+  opacity: 1;
+  animation: animacion2 1s ease-out;
 
 }
 
@@ -86,4 +89,21 @@ header {
 
 .img-header img {
   width: 100%;
+  transform: translate(0);
+  opacity: 1;
+  animation: animacion1 1s ease-out;
+}
+
+@keyframes animacion1 {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes animacion2 {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
 }
