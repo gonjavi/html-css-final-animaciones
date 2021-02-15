@@ -107,3 +107,13 @@ header {
     opacity: 0;
   }
 }
+
+.wave-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  height: 150px;
+  width: 100%;
+  fill: #fff;
+}
