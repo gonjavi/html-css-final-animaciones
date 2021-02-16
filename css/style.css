@@ -91,7 +91,6 @@ header {
   transform: translateY(0);
   opacity: 1;
   animation: animacion2 1s ease-out;
-
 }
 
 .contenido-header h1 {
@@ -469,4 +468,72 @@ footer .contact {
 .footer-logo img {
   width: 100%;
   object-fit: cover;
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    height: auto;
+  }
+
+  .contenido-header {
+   flex-wrap: wrap;
+   height: 900px;
+   flex-direction: column-reverse;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+  }
+
+  .contenido-header .textos-header {
+    width: 80%;
+    margin-bottom: 100px;
+    text-align: center;  
+  }
+
+  .contenido-header h1{
+    font-size: 40px;
+  }
+
+  .contenido-header h2 {
+    font-size: 20px;
+  }
+
+  .contenido-header .img-header {
+    width: 80%;
+  }
+
+  .contenedor-acerca-de {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-acerca {
+    width: 70%;
+  }
+
+  .img-servicio {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+
+  .contenido-servicio {
+    width: 100%;
+  }
+
+  .galeria-img {
+    width: 48%;
+  }
+
+  .tabla {
+    width: 70%;
+    margin-bottom: 40px;
+  }
+
+  .footer-contact {
+    width: 40%;
+  }
+
+  .footer-logo {
+    width: 40%;
+  }
 }
