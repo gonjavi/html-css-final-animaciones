@@ -3,7 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 } 
-
+:root {
+  --border: 1px solid #585858; /* variable --border */
+  --back: rgba(75, 0, 224, 0.698);
+  --color: #000;
+  --color-boton: #fff;
+  --backtabla: #fff;
+  --colorprecio: #585858;
+  --box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+}
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -284,4 +292,78 @@ header {
 /*  hover sobre el contenedor */
 .galeria-img:hover .extra-galeria {
   transform: translate(0);
+}
+
+/* Precios */
+
+.precios {
+  background: #f2f2f2;
+}
+
+.precios h3 {
+  padding-top: 80px;
+}
+
+.precios-tablas {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tabla {
+  background: var(--backtabla);
+  width: 29%;
+  text-align: center;
+  border-radius: 4px;
+  padding: 40px 0;
+  box-shadow: var(--box-shadow);
+  color: var(--color);
+  transform: scale(1);
+  transition: transform 1s;
+}
+
+.tabla h5 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.tabla .price {
+  color: var(--colorprecio);
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.tabla .price span {
+  font-size: 24px;
+}
+
+.tabla ul li {
+  display: block;
+  list-style: none;
+  border-bottom: var(--border);
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.tabla > a {
+  display: inline-block;
+  margin-top: 20xp;
+  text-decoration: none;
+  color: var(--color-boton);
+  background: var(--back);
+  width: 140px;
+  border-radius: 10px;
+  padding: 10px 0;
+  box-shadow: var(--box-shadow);
+}
+
+.tabla:hover {
+  --border: 1px dotted #fff;
+  cursor: pointer;
+  --back: #fff;
+  --color: #000;
+  --color-boton: #000;
+  --backtabla: rgba(75, 0, 224, 0.698);
+  transform: scale(1.07);
 }
