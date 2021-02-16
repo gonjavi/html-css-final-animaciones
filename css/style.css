@@ -9,7 +9,7 @@
   --color: #000;
   --color-boton: #fff;
   --backtabla: #fff;
-  --colorprecio: #585858;
+  --color-precio: #585858;
   --box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
 }
 body {
@@ -329,7 +329,7 @@ header {
 }
 
 .tabla .price {
-  color: var(--colorprecio);
+  color: var(--color-precio);
   font-weight: bold;
   margin-bottom: 30px;
 }
@@ -344,6 +344,7 @@ header {
   border-bottom: var(--border);
   margin-bottom: 20px;
   padding-bottom: 20px;
+  color: var(--color)
 }
 
 .tabla > a {
@@ -362,8 +363,9 @@ header {
   --border: 1px dotted #fff;
   cursor: pointer;
   --back: #fff;
-  --color: #000;
+  --color: #fff;
   --color-boton: #000;
   --backtabla: rgba(75, 0, 224, 0.698);
+  --color-precio: #fff;
   transform: scale(1.07);
 }
