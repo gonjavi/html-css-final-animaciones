@@ -536,4 +536,65 @@ footer .contact {
   .footer-logo {
     width: 40%;
   }
+
+ 
+}
+
+@media screen and (max-width: 400px) {
+  .card-acerca {
+    width: 100%;
+  }
+
+  .img-servicio {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .contenido-servicio {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+
+  }
+
+  .servicio .contenido-servicio ul {
+    display: none;
+  }
+
+  .contenido-servicio h3 {
+    font-size: 25px;
+  }
+
+  .galeria-img {
+    width: 98%;
+  }
+
+  .tabla {
+    width: 90%;
+    margin-bottom: 40px;
+  }
+
+  .tabla > a {
+    width: 100px;
+  }
+
+  .cont-slide  img {
+    height: 100px;
+    width: 100px;
+  }
+
+  footer {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-contact {
+    width: 100%;
+  }
+
+  .footer-logo {
+    width: 100%;
+  }
 }
