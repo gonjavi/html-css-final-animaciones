@@ -3,7 +3,7 @@
 This is a website with animations using HTML, CSS3, and Javascript.
 
 
-![screenshot](./img/aniacion1.png)
+![screenshot](./img/animacion1.png)
 
 
 ## Built With
