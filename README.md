@@ -17,7 +17,7 @@ This is a website with animations using HTML, CSS3, and Javascript.
 👤 **Gonza Javier Mancilla**
 
 - Github: [@github/gonjavi](https://github.com/gonjavi)
-- Linkedin: [linkedin](https://www.linkedin.com/in/g-javier-mancilla-a686a9178/)
+- Linkedin: [@g-javier-mancilla](https://www.linkedin.com/in/g-mancillla)
 
 
 ## Live Demo
