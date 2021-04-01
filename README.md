@@ -1,4 +1,4 @@
-# html-css-final
+# HTML-CSS3-ANIMACIONES
 
 This is a website with animations using HTML, CSS3, and Javascript.
 
